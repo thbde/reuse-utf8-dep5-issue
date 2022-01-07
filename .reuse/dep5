@@ -2,7 +2,11 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Project
 Upstream-Contact: Jane Doe <jane@example.com>
 Source: https://example.com/jane/project
+# this line and the next line contain only ascii characters
+# the line next however contains some utf-8 characters
+# a penguin: 🐧 and a panda face: 🐼
+# this is again an ascii line. all lines in this file expect the previous line contain only ascii characters
 
-Files: po/*
-Copyright: 2019 Translation Company
-License: GPL-3.0-or-later
+Files: /*
+Copyright: none
+License: MIT
