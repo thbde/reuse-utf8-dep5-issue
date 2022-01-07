@@ -1,0 +1,16 @@
+$ python --version
+Python 3.10.1
+$ reuse --version
+reuse 0.14.0
+
+$ reuse download --all
+reuse.report - ERROR - Could not read 'call_open.py'
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 321: character maps to <undefined>
+reuse.report - ERROR - Could not read 'file1.txt'
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 321: character maps to <undefined>
+reuse.report - ERROR - Could not read 'file2.txt'
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 321: character maps to <undefined>
+reuse.report - ERROR - Could not read 'file3.txt'
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 321: character maps to <undefined>
+reuse.report - ERROR - Could not read 'output_reuse_call.txt'
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 321: character maps to <undefined>
